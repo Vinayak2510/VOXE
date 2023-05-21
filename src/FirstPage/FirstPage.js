@@ -1,6 +1,7 @@
 import "./FirstPage.css";
 import { Slider, TextField, Button } from "@mui/material";
 import { useState } from "react";
+import PeopleList from "./PeopleList";
 
 const FirstPage = () => {
   const [amount, setAmount] = useState(4000);
@@ -57,7 +58,7 @@ const FirstPage = () => {
           JOIN
         </Button>
       </div>
-      <div className="people-list"></div>
+      <div className="people-list"><PeopleList /></div>
       <div className="step-1">Step 1</div>
       <div className="arrow-1"></div>
       <div className="step-2">Step 2</div>
