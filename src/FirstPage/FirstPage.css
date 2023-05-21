@@ -135,9 +135,138 @@ top: 639px;
 }
 
 .best-email{
-    position: absolute;
+position: absolute;
 width: 220px;
 height: 42px;
 left: 726px;
+top: 639px;
+}
+
+.people-list{
+    position: absolute;
+width: 1440px;
+height: 242px;
+left: 0px;
+top: 787px;
+border: 1px solid black;
+}
+
+.step-1{
+    position: absolute;
+width: 108px;
+height: 32px;
+left: 98px;
+top: 1135px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 32px;
+/* identical to box height, or 89% */
+
+
+color: #000000;
+
+}
+
+.step-2{
+    position: absolute;
+width: 113px;
+height: 32px;
+left: 608px;
+top: 1132px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 32px;
+/* identical to box height, or 89% */
+
+
+color: #000000;
+}
+
+.step-3{
+    position: absolute;
+width: 114px;
+height: 32px;
+left: 1097px;
+top: 1134px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 32px;
+/* identical to box height, or 89% */
+
+
+color: #000000;
+}
+
+.step-4{
+    position: absolute;
+width: 115px;
+height: 32px;
+left: 1097px;
+top: 1378px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 32px;
+/* identical to box height, or 89% */
+
+
+color: #000000;
+}
+
+.arrow-1{
+    box-sizing: border-box;
+
+position: absolute;
+width: 355.01px;
+height: 0px;
+left: 226px;
+top: 1151px;
+
+border: 3px solid #000000;
+transform: rotate(-0.48deg);
+}
+
+.arrow-2{
+    box-sizing: border-box;
+
+position: absolute;
+width: 355.01px;
+height: 0px;
+left: 733px;
+top: 1150.99px;
+
+border: 3px solid #000000;
+transform: rotate(-0.48deg);
+}
+
+.arrow-3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 244px;
+    height: 0px;
+    left: 1241px;
+    top: 1394px;
+    
+    border: 3px solid #000000;
+    transform: rotate(-90deg);
+}
+
+.button-1{
+    position: absolute;
+width: 147px;
+height: 42px;
+left: 941px;
 top: 639px;
 }

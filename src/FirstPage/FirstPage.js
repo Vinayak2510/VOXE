@@ -1,5 +1,5 @@
 import "./FirstPage.css";
-import { Slider,TextField } from "@mui/material";
+import { Slider, TextField, Button } from "@mui/material";
 import { useState } from "react";
 
 const FirstPage = () => {
@@ -37,14 +37,34 @@ const FirstPage = () => {
       />
       <div className="what-voxe">What's VOXE?</div>
       <div className="name-field">
-      <TextField id="standard-basic" label="Name" variant="outlined" />
+        <TextField id="standard-basic" label="Name" variant="outlined" />
       </div>
       <div className="surname-field">
-      <TextField id="standard-basic" label="Surname" variant="outlined" />
+        <TextField id="standard-basic" label="Surname" variant="outlined" />
       </div>
       <div className="best-email">
-      <TextField id="standard-basic" label="Best Email" variant="outlined" />
+        <TextField id="standard-basic" label="Best Email" variant="outlined" />
       </div>
+      <div className='button-1'>
+        <Button
+          style={{
+            backgroundColor: "#ffb580",
+            marginTop: '10px',
+            color:'black'
+          }}
+          variant="contained"
+        >
+          JOIN
+        </Button>
+      </div>
+      <div className="people-list"></div>
+      <div className="step-1">Step 1</div>
+      <div className="arrow-1"></div>
+      <div className="step-2">Step 2</div>
+      <div className="arrow-2"></div>
+      <div className="step-3">Step 3</div>
+      <div className="arrow-3"></div>
+      <div className="step-4">Step 4</div>
     </>
   );
 };
