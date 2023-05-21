@@ -30,10 +30,10 @@ const FirstPage = () => {
       </div>
       <iframe
         src="https://www.youtube.com/embed/E7wJTI-1dvQ"
-        frameborder="0"
+        frameBorder="0"
         allow="autoplay; encrypted-media"
         className="vedio"
-        allowfullscreen
+        allowFullScreen
         title="video"
       />
       <div className="what-voxe">What's VOXE?</div>

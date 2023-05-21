@@ -37,6 +37,7 @@ const PeopleList = () => {
             imgSrc = 'https://lh3.googleusercontent.com/a/AGNmyxYze6BVtLlyO3djDl6LC-s-ZUi67u8_HS61hL222JU=s288-c-no'
             name = {person}
             color = {index === active ? 'white' : '#f2f6fe'}
+            key = {index}
           />)
         })
       }
