@@ -40,6 +40,7 @@ const FirstPage = () => {
       />
       <JoinComunity />
       <div className="inside-text">Look who’s already inside 👀</div>
+      <div className="people-list"><PeopleList /></div>
       <Flow />
     </>
   );

@@ -10,6 +10,7 @@ const Person = (props) => {
                 className='person-image'
                 height={'85px'}
                 width={'85px'}
+                alt=''
             />
             <br />
             {name}

@@ -5,7 +5,6 @@ const Flow = () => {
     return (<>
         
       <div className="what-voxe">What's VOXE?</div>
-      <div className="people-list"></div>
       <div className="step-1">Step 1</div>
       <div className="arrow-1"></div>
       <div className="step-2">Step 2</div>
