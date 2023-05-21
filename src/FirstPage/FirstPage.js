@@ -1,6 +1,8 @@
 import "./FirstPage.css";
-import { Slider, TextField, Button } from "@mui/material";
+import { Slider } from "@mui/material";
 import { useState } from "react";
+import JoinComunity from "../components/JoinCommunity";
+import Flow from "../components/Flow";
 import PeopleList from "./PeopleList";
 
 const FirstPage = () => {
@@ -36,36 +38,9 @@ const FirstPage = () => {
         allowFullScreen
         title="video"
       />
-      <div className="what-voxe">What's VOXE?</div>
-      <div className="name-field">
-        <TextField id="standard-basic" label="Name" variant="outlined" />
-      </div>
-      <div className="surname-field">
-        <TextField id="standard-basic" label="Surname" variant="outlined" />
-      </div>
-      <div className="best-email">
-        <TextField id="standard-basic" label="Best Email" variant="outlined" />
-      </div>
-      <div className='button-1'>
-        <Button
-          style={{
-            backgroundColor: "#ffb580",
-            marginTop: '10px',
-            color:'black'
-          }}
-          variant="contained"
-        >
-          JOIN
-        </Button>
-      </div>
-      <div className="people-list"><PeopleList /></div>
-      <div className="step-1">Step 1</div>
-      <div className="arrow-1"></div>
-      <div className="step-2">Step 2</div>
-      <div className="arrow-2"></div>
-      <div className="step-3">Step 3</div>
-      <div className="arrow-3"></div>
-      <div className="step-4">Step 4</div>
+      <JoinComunity />
+      <div className="inside-text">Look who’s already inside 👀</div>
+      <Flow />
     </>
   );
 };
