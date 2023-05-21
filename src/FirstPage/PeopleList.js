@@ -20,7 +20,7 @@ const PeopleList = () => {
       }
     }
   };
-console.log(active)
+
   useEffect(() => {
     document.getElementById('people-container').addEventListener('scroll', handleScroll);
     return () => {
@@ -32,7 +32,6 @@ console.log(active)
     <div className='scrollable' id='people-container'>
       {
         people.map((person,index)=>{
-          console.log(index === active,index,active)
           return(
           <Person
             imgSrc = 'https://lh3.googleusercontent.com/a/AGNmyxYze6BVtLlyO3djDl6LC-s-ZUi67u8_HS61hL222JU=s288-c-no'
