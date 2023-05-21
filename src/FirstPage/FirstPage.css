@@ -208,20 +208,20 @@ color: #000000;
 
 .step-4{
     position: absolute;
-width: 115px;
-height: 32px;
-left: 1097px;
-top: 1378px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 32px;
-/* identical to box height, or 89% */
-
-
-color: #000000;
+    width: 115px;
+    height: 32px;
+    left: 1097px;
+    top: 1378px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 32px;
+    /* identical to box height, or 89% */
+    
+    
+    color: #000000;
 }
 
 .arrow-1{
@@ -256,11 +256,19 @@ transform: rotate(-0.48deg);
     position: absolute;
     width: 244px;
     height: 0px;
-    left: 1241px;
-    top: 1394px;
+    left: 1120px;
+    top: 1263px;
     
     border: 3px solid #000000;
     transform: rotate(-90deg);
+}
+
+.dot{
+    height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .button-1{
@@ -269,4 +277,125 @@ width: 147px;
 height: 42px;
 left: 941px;
 top: 639px;
+}
+
+#standard-basic{
+    width: 180px;
+    height: 11px;
+}
+
+.register{
+    position: absolute;
+width: 148px;
+height: 32px;
+left: 78px;
+top: 1203px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 32px;
+/* identical to box height, or 89% */
+
+
+color: #000000;
+}
+
+.share-link{
+    position: absolute;
+width: 274px;
+height: 32px;
+left: 528px;
+top: 1206px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 32px;
+/* identical to box height, or 89% */
+
+
+color: #000000;
+}
+
+.invite-creators{
+    position: absolute;
+width: 360px;
+height: 32px;
+left: 1005px;
+top: 1216px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 32px;
+/* identical to box height, or 89% */
+
+
+color: #000000;
+}
+
+.achieve-benifits{
+    position: absolute;
+width: 432px;
+height: 32px;
+left: 963px;
+top: 1447px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 32px;
+/* identical to box height, or 89% */
+
+
+color: #000000;
+}
+
+.perks{
+    position: absolute;
+width: 193px;
+height: 32px;
+left: 244px;
+top: 1327px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+
+color: #000000;
+}
+
+.inside-text{
+    position: absolute;
+width: 499px;
+height: 32px;
+left: 470px;
+top: 736px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 32px;
+/* identical to box height, or 89% */
+
+
+color: #000000;
+}
+
+.creator-1{
+    position: absolute;
+width: 160px;
+height: 54px;
+left: 121px;
+top: 1399px;
 }
