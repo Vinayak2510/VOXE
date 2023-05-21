@@ -3,6 +3,7 @@ import { Slider } from "@mui/material";
 import { useState } from "react";
 import JoinComunity from "../components/JoinCommunity";
 import Flow from "../components/Flow";
+import PeopleList from "./PeopleList";
 
 const FirstPage = () => {
   const [amount, setAmount] = useState(4000);
