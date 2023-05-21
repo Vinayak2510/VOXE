@@ -1,0 +1,143 @@
+.voxe{   
+position: absolute;
+width: 80px;
+height: 32px;
+left: 58px;
+top: 43px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 32px;
+color: #09001C;
+}
+
+.creators{
+    position: absolute;
+width: 298px;
+height: 32px;
+left: 252px;
+top: 190px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 32px;
+
+color: #000000;
+}
+
+.estimation{
+    position: absolute;
+width: 63px;
+height: 32px;
+left: 379px;
+top: 222px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 32px;
+/* identical to box height, or 267% */
+
+
+color: #000000;
+}
+
+.slider{
+    position: absolute;
+width: 432.5px;
+height: 52.5px;
+left: 195px;
+top: 393px;
+}
+
+.amount{
+    position: absolute;
+width: 167px;
+height: 32px;
+left: 319px;
+top: 285px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 32px;
+/* identical to box height, or 67% */
+
+
+color: #000000;
+}
+
+.amount-text{
+    position: absolute;
+width: 321px;
+height: 32px;
+left: 260px;
+top: 348px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 32px;
+/* identical to box height, or 267% */
+
+
+color: #000000;
+}
+
+.vedio{
+    position: absolute;
+    width: 419px;
+    height: 297px;
+    left: 812px;
+    top: 190px;
+}
+
+.what-voxe{
+    position: absolute;
+width: 258px;
+height: 41px;
+left: 893px;
+top: 506px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 32px;
+/* or 89% */
+
+
+color: #000000;
+}
+
+.name-field{
+    position: absolute;
+width: 220px;
+height: 42px;
+left: 293px;
+top: 639px;
+
+}
+
+.surname-field{
+    position: absolute;
+width: 220px;
+height: 42px;
+left: 507px;
+top: 639px;
+}
+
+.best-email{
+    position: absolute;
+width: 220px;
+height: 42px;
+left: 726px;
+top: 639px;
+}
