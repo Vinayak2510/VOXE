@@ -6,6 +6,8 @@ import Comunity from "../components/Comunity";
 import Questions from "../components/Questions";
 import Earning from "../components/Earning";
 import Header from "../components/Header";
+import CallFooter from "../components/CallFooter/CallFooter";
+import AddressFooter from "../components/AddressFooter/AddressFooter";
 
 const FirstPage = () => {
 
@@ -19,6 +21,8 @@ const FirstPage = () => {
       <Flow />
       <Comunity />
       <Questions />
+      <CallFooter />
+      <AddressFooter />
     </div>
     </>
   );
