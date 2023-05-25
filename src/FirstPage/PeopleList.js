@@ -29,6 +29,8 @@ const PeopleList = () => {
   }, []);
 
   return (
+    <>
+    <div className="inside-text">Look who’s already inside 👀</div>
     <div className='scrollable' id='people-container'>
       {
         people.map((person,index)=>{
@@ -41,6 +43,8 @@ const PeopleList = () => {
         })
       }
     </div>
+    </>
+    
   )
 }
 
