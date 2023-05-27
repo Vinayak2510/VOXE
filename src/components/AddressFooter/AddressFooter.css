@@ -1,0 +1,38 @@
+.address-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-footer {
+    width: 50%;
+}
+
+.footer-voxe {
+    font-size: 160%;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 54%;
+}
+
+.physical-footer {
+    margin-left: 35%;
+}
+.p-address-footer {
+    display: flex;
+    width: 78%;
+}
+
+.community-button{
+    display: flex;
+}
+
+.media-icons {
+    padding-top: 5%;
+}
+
+.social-icons{
+    background-color: #c7c4f05c;
+    border: 1px transparent;
+    display: inline-block;
+    border-radius: 50%;
+}
