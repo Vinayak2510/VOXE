@@ -1,5 +1,11 @@
 import "../FirstPage/FirstPage.css";
-import { Select, MenuItem, InputLabel,FormControl } from "@mui/material";
+import {
+  Accordion,
+  AccordionSummary,
+  AccordionDetails,
+  Typography,
+} from "@mui/material";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const Perks = () => {
   const creators = [
@@ -14,19 +20,16 @@ const Perks = () => {
       <div className="perks">Perks & Benifits</div>
       {creators.map((creator, index) => {
         return (
-          <div className={`creator-${index + 1}`}>
-            <FormControl fullWidth>
-              <InputLabel id="demo-simple-select-label">{creator}</InputLabel>
-              <Select
-                labelId="demo-simple-select-label"
-                id="demo-simple-select"
-                label={creator}
-              >
-                <MenuItem value={10}>Ten</MenuItem>
-                <MenuItem value={20}>Twenty</MenuItem>
-                <MenuItem value={30}>Thirty</MenuItem>
-              </Select>
-            </FormControl>
+          <div>
+            
+            <Accordion>
+              <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                <Typography><span style={{whiteSpace:'nowrap'}}>{creator}</span></Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                <Typography>{'Benifits Here!'}</Typography>
+              </AccordionDetails>
+            </Accordion>
           </div>
         );
       })}

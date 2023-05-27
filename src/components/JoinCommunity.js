@@ -3,7 +3,7 @@ import "../FirstPage/FirstPage.css";
 
 const JoinComunity = () => {
   return (
-    <div>
+    <div className="join-community-container">
       <div className="name-field">
         <TextField
           id="standard-basic"

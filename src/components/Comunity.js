@@ -20,7 +20,7 @@ const Comunity = () => {
         </Button>
       </div>
       <div className="behind-voxe">Who's Behind VOXE</div>
-      <div className="community-image"><img src={community} alt=''/> </div>
+      <div><img src={community}  className="community-image" alt=''/> </div>
     </>
   );
 };

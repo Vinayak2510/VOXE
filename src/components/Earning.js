@@ -10,7 +10,7 @@ const Earning = () => {
   return (
     <>
       <div>
-        <div>
+        <div className="earning-container"> 
         <div className="creators">Creators Earning</div>
         <div className="estimation">Estimation</div>
         <div className="amount">{`$${amount}`}</div>
@@ -27,16 +27,6 @@ const Earning = () => {
             onChange={handleChange}
           />
         </div>
-        </div>
-        <div>
-        <iframe
-          src="https://www.youtube.com/embed/E7wJTI-1dvQ"
-          frameborder="0"
-          allow="autoplay; encrypted-media"
-          className="vedio"
-          allowfullscreen
-          title="video"
-        />
         </div>
       </div>
     </>

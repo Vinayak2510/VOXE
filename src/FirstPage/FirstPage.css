@@ -1,0 +1,255 @@
+.layout{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:10%;
+}
+
+.content1{
+    /* background-color: brown; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+.content2{
+    /* background-color: cyan; */
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.content3{
+    /* background-color: red; */
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.content4{
+    /* background-color: yellow; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.content5{
+    /* background-color: green; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.content6{
+    /* background-color: orange; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.content7{
+    /* background-color: pink; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.content9{
+    /* background-color: purple; */
+    grid-row-start: 7;
+    grid-column: 1;
+}
+.content8{
+    /* background-color: purple; */
+    grid-column-start: 2;
+    grid-row-start: 7;
+}
+
+.vedio{
+    width: 100%;
+    height: 297px;
+}
+
+.creators{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 32px;
+}
+
+.estimation{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 32px;
+}
+
+.inside-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.step-font{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 32px;
+color: #000000;
+}
+
+.amount{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 32px;
+}
+
+.amount-text{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 32px;
+}
+
+.slider{
+    width: 80%;
+    height: 52.5px;
+    align-items: center;
+}
+
+.join-community-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.community-image{
+    width: 100%;
+}
+
+.flow-layout{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+    grid-template-rows: 0.2fr 0.2fr 1fr 0.2fr;
+    grid-gap:5px;
+    justify-content: center;
+}
+
+.step-1{
+    grid-column-start: 1;
+    align-self: start;
+}
+
+.arrow-1{
+    grid-column-start: 2;
+    width: 100%;
+    height: 0;
+    border: 1px solid black;
+    align-self: center;
+}
+
+.register{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    align-items: top;
+}
+
+.step-2{
+    grid-column-start: 3;
+}
+
+.share-link{
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.arrow-2{
+    grid-column-start: 4;
+    width: 100%;
+    height: 0;
+    border: 1px solid black;
+    align-self: center;
+}
+
+
+.invite-creators{
+    grid-column-start: 5;
+    grid-row-start: 2;
+}
+
+.perks{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:3;
+}
+
+.perks{
+    display: flex;
+    width: 80%;
+    flex-wrap:wrap;
+    gap:10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    padding: 5%;
+}
+
+.arrow-3{
+    grid-column-start:5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    width: 0;
+    height: 100%;
+    border: 1px solid black;
+    align-self: center;
+}
+
+.step-3{
+    grid-column-start: 5;
+}
+
+.step-4{
+    grid-column-start: 5;
+    grid-row-start: 4;
+    align-self: end;
+}
+
+
+@media (max-width: 500px){
+    .content2{
+        /* background-color: cyan; */
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .content3{
+        /* background-color: red; */
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .join-community-container{
+        flex-direction: column;
+    }
+
+    .perks{
+        grid-column: 1/-1;
+        grid-row-start:5;
+    }
+    .content8{
+        grid-column: 1/-1;
+        grid-row-start: 9;
+    }
+    .content9{
+        grid-column: 1/-1;
+        grid-row-start: 8;
+    }
+
+}
