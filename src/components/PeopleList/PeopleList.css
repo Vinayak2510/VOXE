@@ -26,8 +26,10 @@
 .person-name {
     padding-top: 5%;
     font-weight: 600;
+    padding-right: 6%;
 }
 
 .icon-verified {
-    color: 'purple',
+    position: relative;
+    left: -5%;
 }

@@ -2,18 +2,12 @@ import React from 'react'
 import VerifiedIcon from '@mui/icons-material/Verified';
 import { makeStyles } from '@mui/material';
 
-const useStyles = makeStyles({
-    icon: {
-      color: 'red',
-    },
-  });
-
 const Person = (props) => {
     const {imgSrc,name} = props;
-    const classes = useStyles();
 
     return (
         <div className='person-container'>
+            <div>
             <img 
                 src={imgSrc} 
                 className='person-image'
@@ -21,7 +15,8 @@ const Person = (props) => {
                 width={'85px'}
                 alt=''
             />
-            <VerifiedIcon className={classes.icon}/>
+            <span className='icon-verified'><VerifiedIcon color='secondary'/></span>
+            </div>
             <br />
             <div className='person-name '>{name}</div>
         </div>
