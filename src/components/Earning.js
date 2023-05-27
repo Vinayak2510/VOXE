@@ -11,10 +11,10 @@ const Earning = () => {
     <>
       <div>
         <div className="earning-container"> 
-        <div className="creators">Creators Earning</div>
-        <div className="estimation">Estimation</div>
-        <div className="amount">{`$${amount}`}</div>
-        <div className="amount-text">
+        <div className="font-xl-700">Creators Earning</div>
+        <div className="font-s-700">Estimation</div>
+        <div className="font-xxl-800">{`$${amount}`}</div>
+        <div className="font-s-700">
           {"with [20K] subscribers at an estimated [amount] x day"}
         </div>
         <div className="slider">

@@ -10,16 +10,16 @@ const Comunity = () => {
           style={{
             backgroundColor: "#ffb580",
             color: "black",
-            width: "147px",
+            width: "30%",
             height: "42px",
-            marginLeft: "5px",
+            marginBottom: '2%'
           }}
           variant="contained"
         >
           Join the Community
         </Button>
       </div>
-      <div className="behind-voxe">Who's Behind VOXE</div>
+      <div className="font-xl-700">Who's Behind VOXE</div>
       <div><img src={community}  className="community-image" alt=''/> </div>
     </>
   );

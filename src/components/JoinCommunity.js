@@ -32,7 +32,6 @@ const JoinComunity = () => {
             color: "black",
             width: "147px",
             height: "42px",
-            marginLeft: '5px'
           }}
           variant="contained"
         >

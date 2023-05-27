@@ -9,7 +9,7 @@ const IntroVideo = () => {
           allowfullscreen
           title="video"
         />
-        <div className="what-voxe">What's VOXE?</div>
+        <div className="font-xl-800">What's VOXE?</div>
         </div>
     </>
 }

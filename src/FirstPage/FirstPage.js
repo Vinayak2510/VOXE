@@ -9,6 +9,8 @@ import Header from "../components/Header";
 import IntroVideo from "../components/IntroVedio";
 import { useState,useEffect } from "react";
 import QuestionsVedio from "../components/QuestionsVedio";
+import CallFooter  from "../components/CallFooter/CallFooter";
+import  AddressFooter  from "../components/AddressFooter/AddressFooter";
 
 const FirstPage = () => {
 
@@ -24,6 +26,8 @@ const FirstPage = () => {
         <div className="content7"><Comunity /></div>
         <div className="content8"><Questions /></div>
         <div className="content9"><QuestionsVedio /></div>
+        <div className="content10"><CallFooter /></div>
+        <div className="content11"><AddressFooter /></div>
       </div>
     </>
   );
