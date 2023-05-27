@@ -1,6 +1,5 @@
 import React from 'react'
 import VerifiedIcon from '@mui/icons-material/Verified';
-import { makeStyles } from '@mui/material';
 
 const Person = (props) => {
     const {imgSrc,name} = props;

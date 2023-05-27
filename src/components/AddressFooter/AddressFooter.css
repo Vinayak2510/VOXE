@@ -1,3 +1,8 @@
+.footer-container{
+    background: linear-gradient(to right, white 0%, #f2f6fe 33%, #f2f6fe 67%, white 100%);
+    padding: 2%;
+}
+
 .address-footer {
     display: flex;
     justify-content: space-between;
@@ -5,25 +10,26 @@
 
 .social-footer {
     width: 50%;
+    text-align: left;
 }
 
 .footer-voxe {
     font-size: 160%;
     font-weight: 700;
-    text-align: right;
-    padding-right: 54%;
+    text-align: left;
 }
 
 .physical-footer {
     margin-left: 35%;
+    text-align: right;
 }
 .p-address-footer {
     display: flex;
-    width: 78%;
 }
 
 .community-button{
     display: flex;
+    justify-content: flex-end;
 }
 
 .media-icons {
@@ -31,8 +37,13 @@
 }
 
 .social-icons{
-    background-color: #c7c4f05c;
+    background-color: #e6ecf6;
     border: 1px transparent;
     display: inline-block;
     border-radius: 50%;
+}
+
+.gray-line{
+    width: 100%;
+    border: solid 1px #928e8e;
 }
